@@ -1,0 +1,13 @@
+.logo {
+  width: 350px;
+  position: absolute;
+  top: -33px;
+  left: 348px;
+  margin: auto;
+}
+@media only screen and (max-width: 776px) {
+  .logo {
+    width: 250px;
+    left: 60px;
+  }
+}

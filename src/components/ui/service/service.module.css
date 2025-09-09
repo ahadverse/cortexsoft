@@ -1,0 +1,213 @@
+.animatetext {
+  background-image: linear-gradient(
+    -225deg,
+    #ff6922 0%,
+    #ef9414 29%,
+    #11b3d7 67%,
+    #00aaff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textanim 2s linear infinite;
+  display: inline-block;
+  line-height: 62px;
+}
+@keyframes textanim {
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.clearFix:after {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  clear: both;
+  content: "";
+}
+.card__collection {
+  /* display: flex !important; */
+}
+
+.imgresponsive {
+  max-width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+.card__collection {
+  position: relative;
+  display: block;
+  padding: 10px;
+  font-family: "Do Hyeon", sans-serif;
+  overflow: hidden;
+  margin: auto;
+  width: 1250px;
+}
+.card__collection .cards {
+  width: 280px;
+  height: 350px;
+  display: block;
+  background-size: cover;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  margin: 13px;
+}
+
+.card__collection .cardstwo {
+  position: relative;
+  backface-visibility: hidden;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__collection .cardstwo p {
+  position: absolute;
+  top: 86%;
+  left: -100%;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 700;
+  z-index: 8;
+  transition: all 0.6s ease;
+  font-size: 25px;
+}
+.card__collection .cardstwo:hover p {
+  left: 8%;
+}
+.card__collection .cardstwo:hover img {
+  transform: translateY(-75px);
+}
+.card__collection .cardstwo:hover .cardstwo__rect {
+  top: 75%;
+}
+.card__collection .cardstwo:hover .cardstwo__rect:before {
+  transform: translateY(15px);
+}
+.card__collection .cardstwo:hover li {
+  transform: translateY(0);
+}
+.card__collection .cardstwo:hover .cardstwo__tri {
+  right: -40%;
+}
+.card__collection .cardstwo:hover .cardstwo__tri:before {
+  right: -312px;
+}
+.card__collection .cardstwo img {
+  transition: all 0.2s ease;
+}
+.card__collection .cardstwo__tri {
+  border-top: 180px solid transparent;
+  border-bottom: 150px solid transparent;
+  border-right: 240px solid #fff;
+
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -100%;
+  transition: all 0.3s ease-in-out;
+}
+.card__collection .cardstwo__tri:before {
+  border-top: 220px solid transparent;
+  border-bottom: 190px solid transparent;
+  border-right: 288px solid #00aaff;
+  position: absolute;
+  content: "";
+  display: block;
+  top: -220px;
+  background-position: right;
+  right: -612px;
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.2s;
+}
+.card__collection .cardstwo__rect {
+  width: 750px;
+  height: 200px;
+  background: linear-gradient(-45deg, #ff6922, #e73c7e, #23d5ab, #00aaff);
+  display: block;
+  position: absolute;
+  top: 175%;
+  left: -78%;
+  transform: rotate(30deg);
+  z-index: 5;
+
+  transition: all 0.3s ease-in-out;
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card__collection .cardstwo__rect:before {
+  content: "";
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background: #ff6922;
+  transform: translateY(200px);
+  z-index: 2;
+
+  transition: all 0.3s ease-in-out;
+  transition-delay: 0.1s;
+}
+.card__collection .cardstwo ul {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  z-index: 9;
+}
+.card__collection .cardstwo ul li {
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  transform: translateY(100px);
+}
+.card__collection .cardstwo ul li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.card__collection .cardstwo ul li:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.card__collection .cardstwo ul li:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+  .card__collection {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .imgresponsive {
+    max-width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+}
