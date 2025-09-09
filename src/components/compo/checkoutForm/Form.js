@@ -28,7 +28,7 @@ const Form = () => {
     const amount = event.target.amount.value;
     const address = event.target.address.value;
 
-    await axios.post("https://cortexsof-backend.vercel.app/api/invoice", {
+    await axios.post("https://cortexsoft-backend.vercel.app/api/invoice", {
       name,
       email,
       amount,
@@ -37,7 +37,7 @@ const Form = () => {
     });
 
     const response = await axios.post(
-      "https://cortexsof-backend.vercel.app/api/stripe/create-payment-intent",
+      "https://cortexsoft-backend.vercel.app/api/stripe/create-payment-intent",
       {
         amount: amount * 100, // Amount in cents
         currency,
