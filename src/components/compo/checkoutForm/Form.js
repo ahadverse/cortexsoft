@@ -26,20 +26,18 @@ const Form = () => {
     const name = event.target.name.value;
     const email = event.target.email.value;
     const amount = event.target.amount.value;
-    const address = event.target.address.value;
 
     await axios.post("https://cortexsoft-backend.vercel.app/api/invoice", {
       name,
       email,
       amount,
-      address,
       currency,
     });
 
     const response = await axios.post(
       "https://cortexsoft-backend.vercel.app/api/stripe/create-payment-intent",
       {
-        amount: amount * 100, // Amount in cents
+        amount: amount * 100,
         currency,
       }
     );
@@ -91,14 +89,6 @@ const Form = () => {
               name='email'
               type='email'
               placeholder='Email'
-              required
-            />
-          </label>
-          <label className='block'>
-            <input
-              className='py-0 px-2 border-b-2 mb-8 sm:w-[450px] w-full'
-              name='address'
-              placeholder='Full Address'
               required
             />
           </label>
