@@ -39,7 +39,7 @@ const Form = () => {
       {
         amount: amount * 100,
         currency,
-      }
+      },
     );
     const cardElement = elements.getElement(CardElement);
 
@@ -53,7 +53,7 @@ const Form = () => {
             email: email,
           },
         },
-      }
+      },
     );
     event.target.reset();
     if (error) {

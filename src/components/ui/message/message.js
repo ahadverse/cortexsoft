@@ -4,21 +4,21 @@ import Link from "next/link";
 
 const Message = () => {
   return (
-    <div className="">
+    <div className=''>
       <div>
-        <div className="sm:w-[1080px] m-auto bg-white sm:p-10 p-3 mt-24 relative mb-10 rounded">
-          <img className={`${style.logo} absolute top-0`} src="/logo.png" />
+        <div className='sm:w-[1080px] m-auto bg-white sm:p-10 p-3 mt-24 relative mb-10 rounded'>
+          <img className={`${style.logo} absolute top-0`} src='/logo.png' />
           <br /> <br />
           <br /> <br />
           <br /> <br />
           <br /> <br />
           <br /> <br />{" "}
-          <h1 className="text-5xl font-bold text-center">
+          <h1 className='text-5xl font-bold text-center'>
             {" "}
             <span className={`animatetext`}>Message From C.E.O</span>{" "}
           </h1>
           <br /> <br />
-          <b className="text-xl">Dear CortexSof Family,</b>
+          <b className='text-xl'>Dear CortexSof Family,</b>
           <br />
           <br />
           As we mark the remarkable milestone of our first year, I am filled
@@ -72,8 +72,8 @@ const Message = () => {
           <br /> <br />
           Our success story is written in the code we&apos;ve crafted, the
           partnerships we&apos;ve forged, and the challenges we&apos;ve
-          overcome. Each of you has played an integral role in shaping [Company
-          Name]&apos;s identity and impact. I express my deepest gratitude to
+          overcome. Each of you has played an integral role in shaping CortexSof
+          Limited&apos;s identity and impact. I express my deepest gratitude to
           our team, whose passion and expertise have been the bedrock of our
           achievements.
           <br /> <br />

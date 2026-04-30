@@ -33,8 +33,9 @@ const ProductsCard = () => {
             100$
           </h2>
           <p className='text-center my-2'>
-            Lorem ipsum dolor amet, cons ectetur adipiscing elit, sed eiu smod
-            tempor incididunt
+            Create unlimited modules that respond to resident text messages and
+            merge data from any database into personalized SMS replies, with
+            full compatibility across many platforms.
           </p>
           <Link href={"/checkout"}>
             <button className={style.purchageButton}>Purchase</button>
@@ -54,8 +55,9 @@ const ProductsCard = () => {
             100$
           </h2>
           <p className='text-center my-2'>
-            Lorem ipsum dolor amet, cons ectetur adipiscing elit, sed eiu smod
-            tempor incididunt
+            Automate your email replies with a smart autoresponder triggered by
+            user actions on your site or incoming emails, ensuring timely and
+            consistent communication.
           </p>
           <Link href={"/checkout"}>
             <button className={style.purchageButton}>Purchase</button>
@@ -75,8 +77,9 @@ const ProductsCard = () => {
             100$
           </h2>
           <p className='text-center my-2'>
-            Lorem ipsum dolor amet, cons ectetur adipiscing elit, sed eiu smod
-            tempor incididunt
+            Easily create, track, and manage promotional offers and discounts
+            across your platform. Deliver targeted deals to the right customers
+            at the right time to boost conversions.
           </p>
           <Link href={"/checkout"}>
             <button className={style.purchageButton}>Purchase</button>
@@ -94,8 +97,9 @@ const ProductsCard = () => {
             100$
           </h2>
           <p className='text-center my-2'>
-            Lorem ipsum dolor amet, cons ectetur adipiscing elit, sed eiu smod
-            tempor incididunt
+            Organize, manage, and track all your projects in one place.
+            Collaborate with your team, set deadlines, and monitor progress to
+            ensure every project is delivered on time.
           </p>
           <Link href={"/checkout"}>
             <button className={style.purchageButton}>Purchase</button>
