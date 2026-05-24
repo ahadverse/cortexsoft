@@ -22,7 +22,7 @@ const Checkout = () => {
             <p className='text-gray-500 mb-3'>Want more payment options?</p>
             <Link
               href='/payment'
-              className='purchageButton2 inline-block w-[200px] text-center m-auto text-white no-underline'
+              className='purchageButton2 inline-block w-[300px] text-center m-auto text-white no-underline'
             >
               Pay with All Methods →
             </Link>
