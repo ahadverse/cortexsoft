@@ -17,6 +17,12 @@ const Checkout = () => {
               <Form />
             </Elements>
           </div>
+          <div className="text-center mt-6">
+            <p className="text-gray-500 mb-3">Want more payment options?</p>
+            <a href="/payment" className="purchageButton2 inline-block text-white no-underline">
+              Pay with All Methods →
+            </a>
+          </div>
         </div>
       </div>
     </Layout>
