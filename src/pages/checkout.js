@@ -2,8 +2,9 @@ import Layout from "@/components/shared/layout/layout";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import Form from "@/components/compo/checkoutForm/Form";
+import Link from "next/link";
 const stripePromise = loadStripe(
-  "pk_live_51OVHkXARFHiAoV7CnULXyfisj2WR4FCpVyOnNv3h7kDHHHJNMesjQiRPhIkuRryKCwTlw5U7jK8GcVRnrVPZitry00D9uH7WWz"
+  "pk_live_51OVHkXARFHiAoV7CnULXyfisj2WR4FCpVyOnNv3h7kDHHHJNMesjQiRPhIkuRryKCwTlw5U7jK8GcVRnrVPZitry00D9uH7WWz",
 );
 
 const Checkout = () => {
@@ -17,11 +18,14 @@ const Checkout = () => {
               <Form />
             </Elements>
           </div>
-          <div className="text-center mt-6">
-            <p className="text-gray-500 mb-3">Want more payment options?</p>
-            <a href="/payment" className="purchageButton2 inline-block text-white no-underline">
+          <div className='text-center mt-6'>
+            <p className='text-gray-500 mb-3'>Want more payment options?</p>
+            <Link
+              href='/payment'
+              className='purchageButton2 inline-block w-[200px] text-center m-auto text-white no-underline'
+            >
               Pay with All Methods →
-            </a>
+            </Link>
           </div>
         </div>
       </div>
