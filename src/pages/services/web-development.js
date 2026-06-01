@@ -253,7 +253,7 @@ const AppDevelopment = () => {
                 <ul className='text-center my-7'>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
                     {" "}
-                    <GiCheckMark className='text-cyan-600' /> App Development
+                    <GiCheckMark className='text-cyan-600' /> Web Development
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
                     {" "}
@@ -266,12 +266,12 @@ const AppDevelopment = () => {
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
                     {" "}
-                    <GiCheckMark className='text-cyan-600' /> Cross-platform
+                    <GiCheckMark className='text-cyan-600' /> Unlimited Dynamic Pages
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
                     {" "}
-                    <GiCheckMark className='text-cyan-600' /> Native App
-                    (iOS,Android,etc)
+                    <GiCheckMark className='text-cyan-600' /> E-Commerce
+                    Integration
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
                     {" "}

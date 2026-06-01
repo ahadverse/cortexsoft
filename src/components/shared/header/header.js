@@ -77,25 +77,30 @@ const Header = ({ setOpen, open }) => {
 
             <div className={style.dropdown}>
               <li>Products</li>
-              <div className={`${style.dropdownContent} sm:w-[200px]`}>
+              <div className={`${style.dropdownContent} sm:w-[220px]`}>
                 <div className={style.arrow}></div>
                 <li>
                   <Link href={"/products/sms-responder"}>SMS Responder</Link>{" "}
                 </li>
                 <li>
-                  <Link href={"/products/email-responder"}>
-                    Email Responder
-                  </Link>{" "}
+                  <Link href={"/products/email-responder"}>Email Responder</Link>{" "}
                 </li>
                 <li>
-                  <Link href={"/products/offer-management"}>
-                    {" "}
-                    Offer Management
-                  </Link>{" "}
+                  <Link href={"/products/offer-management"}>Offer Management</Link>{" "}
                 </li>
                 <li>
-                  {" "}
-                  <Link href={"/products/projects"}>Projects</Link>{" "}
+                  <Link href={"/products/projects"}>Project Manager</Link>{" "}
+                </li>
+                <li>
+                  <Link href={"/products/analytics-dashboard"}>Analytics Dashboard</Link>{" "}
+                </li>
+                <li>
+                  <Link href={"/products/live-chat"}>Live Chat Support</Link>{" "}
+                </li>
+                <li className="border-t border-gray-200 pt-1 mt-1">
+                  <Link href={"/products"} className="font-bold text-cyan-600">
+                    View All Products
+                  </Link>
                 </li>
               </div>
             </div>
@@ -126,14 +131,14 @@ const Header = ({ setOpen, open }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link href={"/services/digital-marketing"}>
-                    Digital Marketing
-                  </Link>
+                  <Link href={"/services/digital-marketing"}>Digital Marketing</Link>
+                </li>
+                <li>
+                  <Link href={"/services/seo-services"}>SEO Services</Link>
                 </li>
                 <li>
                   <Link href={"/services/data-entry"}>Data Entry</Link>
                 </li>
-
                 <li>
                   <Link href={"/services/tools"}>Tools</Link>
                 </li>

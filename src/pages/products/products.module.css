@@ -2,6 +2,7 @@
   background: white;
   border-radius: 5px;
   height: fit-content;
+  padding-bottom: 24px;
 }
 .card:hover {
   cursor: pointer;
@@ -35,11 +36,12 @@
 
 .purchageButton {
   border: 1px solid #dfe5fe;
-  padding: 10px 27px;
-  margin-top: 14px;
+  padding: 12px 36px;
   font-weight: 600;
   border-radius: 0 15px;
   transition: 0.7s;
   display: block;
-  margin: 14px auto;
+  margin: 20px auto 0;
+  min-width: 160px;
+  text-align: center;
 }

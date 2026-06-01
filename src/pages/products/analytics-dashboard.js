@@ -9,81 +9,81 @@ import Link from "next/link";
 const tiers = [
   {
     name: "Starter",
-    price: "$49",
+    price: "$59",
     sub: "/mo",
     highlight: false,
     features: [
-      { label: "Up to 500 SMS / month", included: true },
-      { label: "3 response modules", included: true },
-      { label: "Basic message templates", included: true },
-      { label: "Standard delivery reports", included: true },
+      { label: "Up to 5 dashboards", included: true },
+      { label: "10 connected data sources", included: true },
+      { label: "Standard chart library", included: true },
+      { label: "Weekly automated reports", included: true },
       { label: "Email support", included: true },
-      { label: "Unlimited response modules", included: false },
-      { label: "Custom templates & branding", included: false },
-      { label: "Advanced analytics", included: false },
-      { label: "Scheduled messages", included: false },
+      { label: "Unlimited dashboards", included: false },
+      { label: "Real-time data refresh", included: false },
+      { label: "Custom chart builder", included: false },
+      { label: "Scheduled email reports", included: false },
       { label: "API access", included: false },
       { label: "Dedicated account manager", included: false },
     ],
   },
   {
     name: "Growth",
-    price: "$99",
+    price: "$119",
     sub: "/mo",
     highlight: true,
     features: [
-      { label: "Up to 5,000 SMS / month", included: true },
-      { label: "Unlimited response modules", included: true },
-      { label: "Custom templates & branding", included: true },
-      { label: "Advanced delivery reports", included: true },
-      { label: "Priority email support", included: true },
-      { label: "Advanced analytics dashboard", included: true },
-      { label: "Scheduled messages", included: true },
-      { label: "Multi-database merge", included: true },
+      { label: "Unlimited dashboards", included: true },
+      { label: "50 connected data sources", included: true },
+      { label: "Custom chart builder", included: true },
+      { label: "Real-time data refresh", included: true },
+      { label: "Priority support", included: true },
+      { label: "Scheduled email reports", included: true },
+      { label: "Team sharing & permissions", included: true },
+      { label: "CSV / PDF export", included: true },
       { label: "API access", included: false },
-      { label: "Dedicated account manager", included: false },
       { label: "White-label option", included: false },
+      { label: "Dedicated account manager", included: false },
     ],
   },
   {
     name: "Enterprise",
-    price: "$199",
+    price: "$229",
     sub: "/mo",
     highlight: false,
     features: [
-      { label: "Unlimited SMS / month", included: true },
-      { label: "Unlimited response modules", included: true },
-      { label: "Custom templates & branding", included: true },
-      { label: "Full analytics suite", included: true },
+      { label: "Unlimited dashboards", included: true },
+      { label: "Unlimited data sources", included: true },
+      { label: "Custom visualizations", included: true },
+      { label: "Real-time + historical data", included: true },
       { label: "24/7 priority support", included: true },
-      { label: "Advanced analytics dashboard", included: true },
-      { label: "Scheduled messages", included: true },
-      { label: "Multi-database merge", included: true },
+      { label: "Advanced scheduled reports", included: true },
+      { label: "Advanced team permissions & SSO", included: true },
+      { label: "All export formats", included: true },
       { label: "Full API access", included: true },
-      { label: "Dedicated account manager", included: true },
       { label: "White-label option", included: true },
+      { label: "Dedicated account manager", included: true },
     ],
   },
 ];
 
-const SmsResponder = () => {
+const AnalyticsDashboard = () => {
   return (
     <div>
       <Head>
-        <title>SMS Responder | CortexSof</title>
-        <meta name="description" content="Automate and personalize your SMS responses with CortexSof SMS Responder — built for scale, reliability, and results." />
+        <title>Analytics Dashboard | CortexSof</title>
+        <meta name="description" content="Visualize key business metrics in real time with CortexSof Analytics Dashboard — customizable, powerful, and built for data-driven teams." />
       </Head>
       <Layout>
         <div className="bg-blue-100 pb-16">
           <div className="text-center pt-10 pb-4">
             <p className="text-base font-semibold text-cyan-600 uppercase tracking-widest">CortexSof Products</p>
             <h1 className="text-5xl font-bold mt-1">
-              <span className="animatetext">SMS Responder</span>
+              <span className="animatetext">Analytics Dashboard</span>
             </h1>
             <p className="mt-4 text-gray-600 max-w-2xl mx-auto px-4">
-              Create unlimited modules that automatically respond to customer text messages
-              with personalized, data-driven replies. Compatible with all major SMS platforms
-              and fully scalable from startup to enterprise.
+              Connect your data sources and visualize key business metrics in real time.
+              Build beautiful, customizable dashboards, schedule automated reports, and turn
+              raw data into actionable decisions that drive growth.
             </p>
           </div>
 
@@ -128,4 +128,4 @@ const SmsResponder = () => {
   );
 };
 
-export default SmsResponder;
+export default AnalyticsDashboard;

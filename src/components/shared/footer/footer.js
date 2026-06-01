@@ -27,14 +27,13 @@ const Footer = () => {
           <div className="basis-1/4 md:basis-1/3">
             <div className="mb-5">
               <img
-                className="w-[200px] m-auto sm:m-0  sm:w-full"
+                className="w-[120px]"
                 src="/logo.png"
               />
             </div>
-            <p>
-              &quot;CortexSof Limited will help you grow your business in any
-              case. We have 100+ services that can change your business standard
-              well.&quot;
+            <p className="text-sm leading-relaxed">
+              CortexSof delivers custom software, web &amp; app development, SEO,
+              and digital marketing solutions to businesses worldwide.
             </p>
             <div className="flex mt-5 items-center gap-3 ">
               <div className="">
@@ -52,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="py-4 ml-3 sm:ml-0">
-            <h2 className="text-xl mb-1 font-bold">ADDRESS</h2>
+            <h2 className="text-base mb-1 font-bold tracking-wide">ADDRESS</h2>
             <hr className="mb-3" />
             <div className="flex gap-2 items-start mb-2">
               {/* <AiFillEnvironment className={style.icon} /> */}
@@ -85,16 +84,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="basis-1/4 md:basis-1/3 p-4">
-            <h2 className="text-xl mb-1 font-bold">SERVICES</h2>
+            <h2 className="text-base mb-1 font-bold tracking-wide">SERVICES</h2>
             <hr className="mb-3" />
             <div className="mb-2">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/tools" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Tools
               </Link>
             </div>
             <div className="mb-2">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/app-development" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Apps Development
               </Link>
@@ -102,75 +101,67 @@ const Footer = () => {
 
             <div className="mb-2">
               {" "}
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/software-development" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Software Development
               </Link>
             </div>
             <div className="mb-2">
               {" "}
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/web-development" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Web Development
               </Link>
             </div>
             <div className="mb-2">
               {" "}
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/website-hosting" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Website Hosting
               </Link>
             </div>
 
             <div className="mb-2">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/digital-marketing" className="flex items-center gap-2 text-sm">
                 {" "}
-                <MdArrowRightAlt /> Digital Marketting
+                <MdArrowRightAlt /> Digital Marketing
               </Link>
             </div>
 
             <div className="mb-2">
               {" "}
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/seo-services" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> SEO Services
               </Link>
             </div>
 
             <div className="mb-2">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/services/data-entry" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Data Entry
               </Link>
             </div>
           </div>
           <div className="basis-1/4 md:basis-1/3 p-4 ">
-            <h2 className="text-xl mb-1 font-bold">RESOURCES</h2>
+            <h2 className="text-base mb-1 font-bold tracking-wide">RESOURCES</h2>
             <hr className="mb-3" />
             <div className="mb-3">
-              {" "}
-              <Link href="/" className="flex items-center gap-2">
-                {" "}
-                <MdArrowRightAlt /> Home
-              </Link>
-            </div>
-
-            <div className="mb-3">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/privacy-policy" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Privacy Policy
               </Link>
             </div>
 
             <div className="mb-3">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/terms-and-conditions" className="flex items-center gap-2 text-sm">
                 {" "}
-                <MdArrowRightAlt /> Terms & Condition
+                <MdArrowRightAlt /> Terms &amp; Conditions
               </Link>
             </div>
 
             <div className="mb-3">
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/refund-policy" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Refund Policy
               </Link>
@@ -178,13 +169,41 @@ const Footer = () => {
 
             <div className="mb-3">
               {" "}
-              <Link href="" className="flex items-center gap-2">
+              <Link href="/team" className="flex items-center gap-2 text-sm">
                 {" "}
-                <MdArrowRightAlt /> Team
+                <MdArrowRightAlt /> Our Team
+              </Link>
+            </div>
+
+            <div className="mb-3">
+              <Link href="/shipping-policy" className="flex items-center gap-2 text-sm">
+                {" "}
+                <MdArrowRightAlt /> Shipping Policy
               </Link>
             </div>
           </div>
         </div>
+
+        {/* Credit card logos + compliance bar */}
+        <div className="border-t border-white/20 py-5 sm:w-[1200px] w-full m-auto px-4">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-xs text-white/60 text-center sm:text-left">
+              &copy; {new Date().getFullYear()} CortexSof Limited. All rights reserved. &nbsp;|&nbsp;
+              <Link href="/privacy-policy" className="hover:text-white">Privacy</Link> &nbsp;·&nbsp;
+              <Link href="/terms-and-conditions" className="hover:text-white">Terms</Link> &nbsp;·&nbsp;
+              <Link href="/refund-policy" className="hover:text-white">Refund</Link> &nbsp;·&nbsp;
+              <Link href="/shipping-policy" className="hover:text-white">Shipping</Link>
+            </p>
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-white/60 mr-1">Secure payments:</span>
+              <img src="https://cdn.jsdelivr.net/npm/payment-icons@latest/min/flat/visa.svg" alt="Visa" className="h-8 rounded" />
+              <img src="https://cdn.jsdelivr.net/npm/payment-icons@latest/min/flat/mastercard.svg" alt="Mastercard" className="h-8 rounded" />
+              <img src="https://cdn.jsdelivr.net/npm/payment-icons@latest/min/flat/amex.svg" alt="American Express" className="h-8 rounded" />
+              <img src="https://cdn.jsdelivr.net/npm/payment-icons@latest/min/flat/discover.svg" alt="Discover" className="h-8 rounded" />
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );

@@ -36,94 +36,40 @@ const AppDevelopment = () => {
 
                 <ul className='text-center my-7'>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Web Development
+                    <GiCheckMark className='text-cyan-600' /> Native App (iOS or Android)
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' /> Innovative Design
+                    <ImCross className='text-orange-600' /> Cross-Platform Build
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Fully Mobile
-                    Responsive
+                    <GiCheckMark className='text-cyan-600' /> Up to 5 App Screens
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Logo Design
+                    <GiCheckMark className='text-cyan-600' /> Basic UI/UX Design
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> 5 Static Pages
+                    <GiCheckMark className='text-cyan-600' /> Push Notifications
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Static Slider
+                    <GiCheckMark className='text-cyan-600' /> REST API Integration
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Static Service
-                    Listings
+                    <ImCross className='text-orange-600' /> In-App Analytics
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    All Service Page
+                    <ImCross className='text-orange-600' /> Payment Gateway
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Single Service Page
+                    <ImCross className='text-orange-600' /> Offline Mode Support
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Social Page Link
+                    <ImCross className='text-orange-600' /> Admin Dashboard
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    FB Page Live Feed Box
+                    <GiCheckMark className='text-cyan-600' /> App Store Submission
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Live Chat Application
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Blog System
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Notice Board Download Option
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Contact Mail
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Site Location Map
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Customized Query Mail
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Admin Panel to Maintenance
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />3 Months Free
-                    Maintenance
+                    <GiCheckMark className='text-cyan-600' /> 3 Months Free Maintenance
                   </li>
                 </ul>
                 <Link href={"/checkout"}>
@@ -144,94 +90,40 @@ const AppDevelopment = () => {
                 </b>
                 <ul className='text-center my-7'>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Web Development
+                    <GiCheckMark className='text-cyan-600' /> Native App (iOS or Android)
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Innovative Design
+                    <GiCheckMark className='text-cyan-600' /> Cross-Platform Build
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Fully Mobile
-                    Responsive
+                    <GiCheckMark className='text-cyan-600' /> Up to 15 App Screens
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Logo Design
+                    <GiCheckMark className='text-cyan-600' /> Custom UI/UX Design
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> 10 Dynamic pages
+                    <GiCheckMark className='text-cyan-600' /> Push Notifications
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Dynamic Slider
+                    <GiCheckMark className='text-cyan-600' /> REST API Integration
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Dynamic Service
-                    Listings
+                    <GiCheckMark className='text-cyan-600' /> In-App Analytics
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    All Service Page
+                    <ImCross className='text-orange-600' /> Payment Gateway
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Single Service Page
+                    <ImCross className='text-orange-600' /> Offline Mode Support
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Social Page Link
+                    <GiCheckMark className='text-cyan-600' /> Admin Dashboard
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    FB Page Live Feed Box
+                    <GiCheckMark className='text-cyan-600' /> App Store Submission
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Live Chat Application
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Blog System
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Notice Board Download Option
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Contact Mail
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Site Location Map
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <ImCross className='text-orange-600' />
-                    Customized Query Mail
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Admin Panel to Maintenance
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />3 Months Free
-                    Maintenance
+                    <GiCheckMark className='text-cyan-600' /> 3 Months Free Maintenance
                   </li>
                 </ul>
                 <Link href={"/checkout"}>
@@ -252,95 +144,40 @@ const AppDevelopment = () => {
                 </b>
                 <ul className='text-center my-7'>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> App Development
+                    <GiCheckMark className='text-cyan-600' /> Native App (iOS &amp; Android)
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Innovative Design
+                    <GiCheckMark className='text-cyan-600' /> Cross-Platform Build
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Fully Mobile
-                    Responsive
+                    <GiCheckMark className='text-cyan-600' /> Unlimited App Screens
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Cross-platform
+                    <GiCheckMark className='text-cyan-600' /> Premium UI/UX Design
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Native App
-                    (iOS,Android,etc)
+                    <GiCheckMark className='text-cyan-600' /> Push Notifications
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Dynamic Slider
+                    <GiCheckMark className='text-cyan-600' /> REST API Integration
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' /> Dynamic Service
-                    Listings
+                    <GiCheckMark className='text-cyan-600' /> In-App Analytics
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    All Service Page
+                    <GiCheckMark className='text-cyan-600' /> Payment Gateway
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Single Service Page
+                    <GiCheckMark className='text-cyan-600' /> Offline Mode Support
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Social Page Link
+                    <GiCheckMark className='text-cyan-600' /> Admin Dashboard
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    FB Page Live Feed Box
+                    <GiCheckMark className='text-cyan-600' /> App Store Submission
                   </li>
                   <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Live Chat Application
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Blog System
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Notice Board Download Option
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Contact Mail
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Site Location Map
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Customized Query Mail
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />
-                    Admin Panel to Maintenance
-                  </li>
-                  <li className='flex justify-center items-center gap-2 border-b-2 w-[250px] m-auto mb-2'>
-                    {" "}
-                    <GiCheckMark className='text-cyan-600' />6 Months Free
-                    Maintenance
+                    <GiCheckMark className='text-cyan-600' /> 6 Months Free Maintenance
                   </li>
                 </ul>
                 <Link href={"/checkout"}>

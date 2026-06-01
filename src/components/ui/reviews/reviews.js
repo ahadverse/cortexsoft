@@ -48,24 +48,25 @@ const Reviews = () => {
         <div className={` w-full sm:h-[400px] h-full ${style.slide}`}>
           <div className="flex justify-between sm:flex-row flex-col items-center sm:w-[1200px] w-full m-auto">
             <img
-              className="h-[350px] sm:w-[550px] w-auto"
-              src="https://us.res.keymedia.com/files/image/Ryan%20Kirk%20Surexdirect.jpg"
+              className="h-[350px] sm:w-[550px] w-auto object-cover"
+              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+              alt="David Chen"
             />
             <div className="h-[350px] sm:w-[550px] w-full flex justify-center flex-col sm:p-0 p-5">
               <h1 className="text-2xl text-orange-600 font-bold">
-                Robert Downey Jr
+                David Chen
               </h1>
               <h1 className="text-xl text-cyan-600 font-bold">
-                CEO & Founder of Haxon Holdings
+                CTO at FinEdge Analytics
               </h1>
               <br />
               <p>
-                CortexSof, Inc. is one of my prime choice and trustable company
-                for any customize software solution. They have a strong
-                commitment to deliver their project and they have a good
-                behavior to their clients. I came to visit their Bangladesh
-                office and they have a good office with big space and
-                environment.{" "}
+                Partnering with CortexSof was one of the best decisions we
+                made. Their team delivered our fintech dashboard ahead of
+                schedule, with clean code and excellent documentation. The
+                communication throughout the project was transparent and
+                professional. We have since engaged them for two additional
+                modules and plan to continue the partnership long-term.
               </p>
             </div>
           </div>
@@ -73,24 +74,26 @@ const Reviews = () => {
         <div className={` w-full sm:h-[400px] h-full  ${style.slide}`}>
           <div className="flex justify-between sm:flex-row flex-col items-center sm:w-[1200px] w-full m-auto">
             <img
-              className="h-[350px] sm:w-[550px] w-auto"
-              src="https://images.assetsdelivery.com/compings_v2/fizkes/fizkes2011/fizkes201102042.jpg"
+              className="h-[350px] sm:w-[550px] w-auto object-cover"
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+              alt="Sarah Mitchell"
             />
             <div className="h-[350px] sm:w-[550px] w-full flex justify-center flex-col sm:p-0 p-5">
               <h1 className="text-2xl text-orange-600 font-bold">
-                Natalia Portman
+                Sarah Mitchell
               </h1>
               <h1 className="text-xl text-cyan-600 font-bold">
-                CEO & Founder of Asgurd Byfrost
+                Founder, RetailFlow Pro
               </h1>
               <br />
               <p>
-                CortexSof, Inc. is one of my prime choice and trustable company
-                for any customize software solution. They have a strong
-                commitment to deliver their project and they have a good
-                behavior to their clients. I came to visit their Bangladesh
-                office and they have a good office with big space and
-                environment.{" "}
+                CortexSof redesigned our e-commerce platform from the ground
+                up and the results were outstanding — page load times dropped
+                by 60% and conversion rates increased by 35% in the first
+                quarter post-launch. Their SEO and digital marketing team also
+                helped us rank on the first page of Google for our core
+                keywords. Highly recommended for any business serious about
+                growth.
               </p>
             </div>
           </div>

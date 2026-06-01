@@ -57,43 +57,12 @@ const Message = () => {
           journey. Here&apos;s to the successes we&apos;ve celebrated and the
           even greater ones that lie ahead.
           <br />
-          As we commemorate the first anniversary of CortexSof, I find myself
-          reflecting on the incredible journey we&apos;ve undertaken together.
-          This year has been nothing short of extraordinary, filled with
-          achievements, challenges, and most importantly, the unwavering spirit
-          of our collective dedication.
-          <br /> <br />
-          From the inception of CortexSof, our mission has been to revolutionize
-          businesses through innovative software solutions. Today, I stand proud
-          as I witness the realization of that mission through the remarkable
-          efforts of our talented team. Your ingenuity, commitment, and tireless
-          work have not only met but exceeded the expectations of our clients,
-          positioning us as a driving force in the industry.
-          <br /> <br />
-          Our success story is written in the code we&apos;ve crafted, the
-          partnerships we&apos;ve forged, and the challenges we&apos;ve
-          overcome. Each of you has played an integral role in shaping CortexSof
-          Limited&apos;s identity and impact. I express my deepest gratitude to
-          our team, whose passion and expertise have been the bedrock of our
-          achievements.
-          <br /> <br />
-          Looking forward, the road ahead is filled with promise and potential.
-          Together, let&apos;s continue pushing the boundaries of innovation,
-          exploring new horizons, and maintaining the collaborative spirit that
-          defines CortexSof. The journey continues, and I am excited about the
-          endless possibilities that await us.
-          <br /> <br />
-          To our clients, partners, and every individual who has contributed to
-          our success, thank you for your trust and collaboration. Here&apos;s
-          to the remarkable first year we&apos;ve celebrated and the boundless
-          opportunities that lie ahead.
-          <br />
           <br />
           <br />
           <b> With sincere appreciation,</b>
           <br />
           <br />
-          <b>Tanbir Islam CEO, CortexSof</b>
+          <b>Tanbir Islam, CEO — CortexSof</b>
         </div>
       </div>
     </div>

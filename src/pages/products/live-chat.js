@@ -9,81 +9,81 @@ import Link from "next/link";
 const tiers = [
   {
     name: "Starter",
-    price: "$49",
+    price: "$45",
     sub: "/mo",
     highlight: false,
     features: [
-      { label: "Up to 500 SMS / month", included: true },
-      { label: "3 response modules", included: true },
-      { label: "Basic message templates", included: true },
-      { label: "Standard delivery reports", included: true },
+      { label: "1 operator seat", included: true },
+      { label: "Basic chatbot (rule-based)", included: true },
+      { label: "Up to 500 conversations / month", included: true },
+      { label: "Chat history (30 days)", included: true },
       { label: "Email support", included: true },
-      { label: "Unlimited response modules", included: false },
-      { label: "Custom templates & branding", included: false },
-      { label: "Advanced analytics", included: false },
-      { label: "Scheduled messages", included: false },
-      { label: "API access", included: false },
+      { label: "5+ operator seats", included: false },
+      { label: "AI-powered chatbot", included: false },
+      { label: "Unlimited conversations", included: false },
+      { label: "Multi-channel (email, WhatsApp)", included: false },
+      { label: "CRM integration", included: false },
       { label: "Dedicated account manager", included: false },
     ],
   },
   {
     name: "Growth",
-    price: "$99",
+    price: "$89",
     sub: "/mo",
     highlight: true,
     features: [
-      { label: "Up to 5,000 SMS / month", included: true },
-      { label: "Unlimited response modules", included: true },
-      { label: "Custom templates & branding", included: true },
-      { label: "Advanced delivery reports", included: true },
-      { label: "Priority email support", included: true },
-      { label: "Advanced analytics dashboard", included: true },
-      { label: "Scheduled messages", included: true },
-      { label: "Multi-database merge", included: true },
-      { label: "API access", included: false },
+      { label: "5 operator seats", included: true },
+      { label: "Advanced chatbot automation", included: true },
+      { label: "Unlimited conversations", included: true },
+      { label: "Full chat history", included: true },
+      { label: "Priority support", included: true },
+      { label: "AI-powered chatbot", included: true },
+      { label: "Multi-channel (live chat + email)", included: true },
+      { label: "CRM integration (HubSpot, Zoho)", included: true },
+      { label: "WhatsApp & social channels", included: false },
+      { label: "Custom branding", included: false },
       { label: "Dedicated account manager", included: false },
-      { label: "White-label option", included: false },
     ],
   },
   {
     name: "Enterprise",
-    price: "$199",
+    price: "$179",
     sub: "/mo",
     highlight: false,
     features: [
-      { label: "Unlimited SMS / month", included: true },
-      { label: "Unlimited response modules", included: true },
-      { label: "Custom templates & branding", included: true },
-      { label: "Full analytics suite", included: true },
+      { label: "Unlimited operator seats", included: true },
+      { label: "AI-powered chatbot with NLP", included: true },
+      { label: "Unlimited conversations", included: true },
+      { label: "Full chat history & analytics", included: true },
       { label: "24/7 priority support", included: true },
-      { label: "Advanced analytics dashboard", included: true },
-      { label: "Scheduled messages", included: true },
-      { label: "Multi-database merge", included: true },
-      { label: "Full API access", included: true },
+      { label: "Advanced AI & automation", included: true },
+      { label: "All channels (chat, email, WhatsApp, social)", included: true },
+      { label: "Custom CRM & API integrations", included: true },
+      { label: "WhatsApp & all social channels", included: true },
+      { label: "Custom branding & white-label", included: true },
       { label: "Dedicated account manager", included: true },
-      { label: "White-label option", included: true },
     ],
   },
 ];
 
-const SmsResponder = () => {
+const LiveChat = () => {
   return (
     <div>
       <Head>
-        <title>SMS Responder | CortexSof</title>
-        <meta name="description" content="Automate and personalize your SMS responses with CortexSof SMS Responder — built for scale, reliability, and results." />
+        <title>Live Chat Support | CortexSof</title>
+        <meta name="description" content="Engage website visitors instantly with CortexSof Live Chat — real-time chat, AI chatbot automation, and omnichannel support in one place." />
       </Head>
       <Layout>
         <div className="bg-blue-100 pb-16">
           <div className="text-center pt-10 pb-4">
             <p className="text-base font-semibold text-cyan-600 uppercase tracking-widest">CortexSof Products</p>
             <h1 className="text-5xl font-bold mt-1">
-              <span className="animatetext">SMS Responder</span>
+              <span className="animatetext">Live Chat Support</span>
             </h1>
             <p className="mt-4 text-gray-600 max-w-2xl mx-auto px-4">
-              Create unlimited modules that automatically respond to customer text messages
-              with personalized, data-driven replies. Compatible with all major SMS platforms
-              and fully scalable from startup to enterprise.
+              Engage website visitors the moment they arrive with real-time live chat,
+              AI-powered chatbot automation, and full conversation history. Convert more
+              visitors, resolve issues faster, and build lasting customer relationships.
             </p>
           </div>
 
@@ -128,4 +128,4 @@ const SmsResponder = () => {
   );
 };
 
-export default SmsResponder;
+export default LiveChat;
