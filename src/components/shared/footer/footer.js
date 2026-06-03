@@ -168,14 +168,6 @@ const Footer = () => {
             </div>
 
             <div className="mb-3">
-              {" "}
-              <Link href="/team" className="flex items-center gap-2 text-sm">
-                {" "}
-                <MdArrowRightAlt /> Our Team
-              </Link>
-            </div>
-
-            <div className="mb-3">
               <Link href="/shipping-policy" className="flex items-center gap-2 text-sm">
                 {" "}
                 <MdArrowRightAlt /> Shipping Policy

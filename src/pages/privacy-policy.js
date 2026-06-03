@@ -79,7 +79,7 @@ const PrivacyPolicy = () => {
 
             <div className="bg-white rounded shadow-md p-8">
               <p className="text-gray-700 mb-8 leading-relaxed">
-                CortexSof ("we", "us", or "our") is committed to protecting your privacy.
+                CortexSof (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting your privacy.
                 This Privacy Policy explains how we collect, use, disclose, and safeguard
                 your information when you visit our website or use our services. Please read
                 this policy carefully. If you disagree with its terms, please discontinue
