@@ -83,7 +83,7 @@ const TermsAndConditions = () => {
 
             <div className="bg-white rounded shadow-md p-8">
               <p className="text-gray-700 mb-8 leading-relaxed">
-                Please read these Terms and Conditions carefully before using CortexSof's
+                Please read these Terms and Conditions carefully before using CortexSof&apos;s
                 website or engaging our services. These terms constitute a legally binding
                 agreement between you (the client or visitor) and CortexSof Limited.
               </p>
